@@ -19,7 +19,7 @@ from tqdm import tqdm
 from dgl.nn import GATConv
 from dgl.nn.pytorch import GraphConv
 
-from main import utils
+from src import utils
 
 def gen_q_dict_mis_sym(nx_G, penalty=2):
     Q_dic = defaultdict(int)

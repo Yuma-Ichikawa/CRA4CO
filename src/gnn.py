@@ -20,7 +20,7 @@ from tqdm import tqdm
 from dgl.nn.pytorch import GraphConv
 from dgl.nn.pytorch import SAGEConv
 
-from main import utils
+from src import utils
 
 # +
 class GCN_dev(nn.Module):
