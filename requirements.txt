@@ -1,0 +1,10 @@
+--find-links https://data.dgl.ai/wheels/torch-2.4/cu124/repo.html
+dgl
+torch==2.4.0
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.10.0
+seaborn==0.13.2
+scikit-learn==1.6.1
+networkx==3.4.2
+tqdm==4.67.1
