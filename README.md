@@ -35,8 +35,8 @@ pip install -r requirements.txt
 ✅ **pandas** → `2.2.2`  
 ✅ **matplotlib** → `3.10.0`  
 ✅ **seaborn** → `0.13.2`  
-✅ **scikit-learn** → `1.6.1`  
-✅ **networkx** → `3.4.2`  
+✅ **scikit-Learn** → `1.6.1`  
+✅ **networkX** → `3.4.2`  
 ✅ **tqdm** → `4.67.1`  
 
 ---
@@ -164,6 +164,21 @@ Independent set size: (CRA) 853, (PI) 0
 ```
 
 ---
+
+## 📚 Citation
+
+If you use this work, please cite:
+
+```bibtex
+@inproceedings{
+ichikawa2024controlling,
+title={Controlling Continuous Relaxation for Combinatorial Optimization},
+author={Yuma Ichikawa},
+booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
+year={2024},
+url={https://openreview.net/forum?id=ykACV1IhjD}
+}
+```
 
 🚀 **Now you're ready to experiment with Continuous Relaxation Annealing!** Happy Researching! 🎯
 
