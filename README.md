@@ -35,13 +35,13 @@ pip install -r requirements.txt
 ✅ **pandas** → `2.2.2`  
 ✅ **matplotlib** → `3.10.0`  
 ✅ **seaborn** → `0.13.2`  
-✅ **scikit-Learn** → `1.6.1`  
-✅ **networkX** → `3.4.2`  
+✅ **scikit-learn** → `1.6.1`  
+✅ **networkx** → `3.4.2`  
 ✅ **tqdm** → `4.67.1`  
 
 ---
 
-## 📜 License
+## License
 This project is licensed under the **BSD 3-Clause License**. See [LICENSE](LICENSE.txt) for details.
 
 ---
