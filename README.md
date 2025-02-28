@@ -1,9 +1,9 @@
-# 🚀 Controlling Continuous Relaxation for Combinatorial Optimization
+# Controlling Continuous Relaxation for Combinatorial Optimization
 
 A **PyTorch implementation** of the NeurIPS 2024 paper:  
 🔗 [Controlling Continuous Relaxation for Combinatorial Optimization](https://nips.cc/virtual/2024/poster/92998)
 
-## 📜 Abstract
+## Abstract
 
 Unsupervised Learning (UL)-based solvers for **Combinatorial Optimization (CO)** train neural networks to generate soft solutions by directly optimizing the CO objective using **continuous relaxation strategies**. While these solvers offer advantages over traditional methods, they suffer from:
 
@@ -165,7 +165,7 @@ Independent set size: (CRA) 853, (PI) 0
 
 ---
 
-## 📚 Citation
+## Citation
 
 If you use this work, please cite:
 
@@ -180,5 +180,4 @@ url={https://openreview.net/forum?id=ykACV1IhjD}
 }
 ```
 
-🚀 **Now you're ready to experiment with Continuous Relaxation Annealing!** Happy Researching! 🎯
-
+🚀 **Now you're ready to experiment with Continuous Relaxation Annealing!** Happy Researching!
