@@ -20,7 +20,7 @@ To overcome these, we propose **Continuous Relaxation Annealing (CRA)** – a **
 
 ---
 
-## 🔧 Installation
+## Installation
 
 This package was implemented with **Python 3.11.11**. To install dependencies, run:
 
@@ -158,7 +158,7 @@ size_mis_PI, _, number_violation = utils.postprocess_gnn_mis(bit_string_PI, nx_g
 print(f"Independent set size: (CRA) {size_mis_CRA.item()}, (PI) {size_mis_PI.item()}")
 ```
 
-✅ **Expected Output:**
+**Expected Output:**
 ```
 Independent set size: (CRA) 853, (PI) 0
 ```
@@ -180,4 +180,4 @@ url={https://openreview.net/forum?id=ykACV1IhjD}
 }
 ```
 
-🚀 **Now you're ready to experiment with Continuous Relaxation Annealing!** Happy Researching!
+**Now you're ready to experiment with Continuous Relaxation Annealing!** Happy Researching!
