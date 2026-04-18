@@ -3,6 +3,21 @@
 A **PyTorch implementation** of the NeurIPS 2024 paper:  
 🔗 [Controlling Continuous Relaxation for Combinatorial Optimization](https://nips.cc/virtual/2024/poster/92998)
 
+> ## 👉 Looking for the latest version? Use [**QQA4CO**](https://github.com/Yuma-Ichikawa/QQA4CO).
+>
+> [QQA4CO](https://github.com/Yuma-Ichikawa/QQA4CO) (ICLR 2025) is the actively
+> maintained successor: it generalises CRA into a unified gradient-based
+> annealing framework, ships a **PyTorch Geometric** re-implementation of
+> CRA-PI-GNN as an optional backend (`pip install "qqa[pignn]"`) that runs on
+> modern GPUs (e.g. NVIDIA Blackwell B200 / `sm_100`) where DGL prebuilt
+> wheels are not yet available, and adds spin glasses, TSP, coloring, a
+> Streamlit GUI, and a CLI.
+>
+> **This repository (CRA4CO) is preserved verbatim as the canonical
+> NeurIPS 2024 release** for exact paper reproduction. For new projects,
+> reach for QQA4CO first. See the [Related work](#related-work) section
+> below for a side-by-side decision table.
+
 ## Abstract
 
 Unsupervised Learning (UL)-based solvers for **Combinatorial Optimization (CO)** train neural networks to generate soft solutions by directly optimizing the CO objective using **continuous relaxation strategies**. While these solvers offer advantages over traditional methods, they suffer from:
