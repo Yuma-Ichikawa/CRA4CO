@@ -165,6 +165,35 @@ Independent set size: (CRA) 853, (PI) 0
 
 ---
 
+## Related work
+
+For a unified, gradient-based annealing framework that subsumes CRA and
+extends it to spin glasses (Ising, Edwards–Anderson, SK), statistical-physics
+problems (binary perceptron, Hopfield), categorical / permutation problems
+(Coloring, TSP, QAP), and ships a Streamlit dashboard, see:
+
+> Y. Ichikawa, Y. Arai. **"Continuous Tensor Relaxation for Finding Diverse
+> Solutions in Combinatorial Optimization."** *International Conference on
+> Learning Representations (ICLR), 2025.*
+> Code: <https://github.com/Yuma-Ichikawa/QQA4CO> ·
+> Paper: <https://openreview.net/forum?id=9EfBeXaXf0>
+
+QQA4CO ships a **PyTorch Geometric** re-implementation of CRA-PI-GNN as an
+**optional backend** (`pip install qqa[pignn]`), so users on newer GPU
+architectures (e.g. NVIDIA Blackwell B200 / `sm_100`) that DGL's prebuilt
+wheels do not yet target can still reproduce the CRA results. The reference
+DGL implementation in *this* repository is preserved verbatim as the
+canonical NeurIPS 2024 release.
+
+| Use case                                                          | Recommended repo                                  |
+| ----------------------------------------------------------------- | ------------------------------------------------- |
+| Reproduce the NeurIPS 2024 CRA-PI-GNN paper exactly (DGL stack)   | **CRA4CO** (this repo)                            |
+| Run CRA-PI-GNN on Blackwell GPUs without DGL                      | **QQA4CO** with `qqa[pignn]`                      |
+| Apply the broader QQA framework to spin glasses / TSP / coloring  | **QQA4CO**                                        |
+| Use a GUI / Streamlit dashboard                                   | **QQA4CO** (`qqa gui`)                            |
+
+---
+
 ## Citation
 
 If you use this work, please cite:
